@@ -214,7 +214,7 @@ body{font-family:var(--body);background:var(--bg);color:var(--ink);font-size:14p
         </svg>
       </div>
       <div>
-        <div class="sbl-name">Lumina</div>
+        <div class="sbl-name">Nev</div>
         <div class="sbl-sub">Commerce OS</div>
       </div>
     </div>
@@ -804,7 +804,7 @@ function buildRevenue(sub){
 
 function buildSettings(sub){
   if(sub==="General"){
-    const rows=[{l:"Store Name",v:"Lumina Commerce"},{l:"Currency",v:"INR (₹)"},{l:"Timezone",v:"Asia/Kolkata (IST)"},{l:"Contact Email",v:"nevin@luminashop.in"},{l:"Support Phone",v:"+91 98765 43210"}];
+    const rows=[{l:"Store Name",v:"Nev Commerce"},{l:"Currency",v:"INR (₹)"},{l:"Timezone",v:"Asia/Kolkata (IST)"},{l:"Contact Email",v:"nevin@Nevshop.in"},{l:"Support Phone",v:"+91 98765 43210"}];
     return `<div class="card mb"><div class="ch"><div class="ct">General</div></div>${rows.map(r=>`<div class="setrow"><div class="setlbl">${r.l}</div><div class="setval">${r.v}</div></div>`).join("")}<button class="savebtn">Save Changes</button></div>`;
   }
   return `<div class="card mb"><div class="ch"><div class="ct">${sub}</div></div><div class="empty">${sub} — coming soon</div></div>`;
